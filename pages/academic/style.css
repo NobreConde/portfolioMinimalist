@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'Akira';
+    src: url('/fonts/Akira\ Expanded\ Demo.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Lemon';
+    src: url('/fonts/LEMONMILK-Bold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #292929;
+    color: white;
+    font-family: "Akira";
+}
+
+container.nome {
+    position: absolute;
+    left: 50px;
+}
+
+container.nome h1 {
+    color: #F15302;
+    font-size: 45px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+container.academico {
+    position: absolute;
+    left: 50px;
+    top: 150px;
+    font-family: "Lemon";
+}
