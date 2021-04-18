@@ -17,6 +17,16 @@ body {
     font-family: "Akira";
 }
 
+container.cabecalho {
+    position: absolute;
+    left: 90px;
+    top: 10px;
+}
+
+container.cabecalho img {
+    width: 1200px;
+}
+
 container.nome {
     position: absolute;
     left: 50px;
@@ -46,7 +56,7 @@ container.icons {
 container.lista {
     position: absolute;
     left: 20px;
-    top: 200px;
+    top: 250px;
 }
 
 container.lista ul {
@@ -65,4 +75,14 @@ a {
 
 a:visited {
     color: white;
+}
+
+container.rodape {
+    position: absolute;
+    left: 90px;
+    top: 600px;
+}
+
+container.rodape img {
+    width: 1200px;
 }
